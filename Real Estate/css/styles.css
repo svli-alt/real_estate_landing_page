@@ -1,0 +1,270 @@
+
+/* Mobile */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  #title {
+    padding-bottom: 5%;
+  }
+
+  .building-img {
+    display: none;
+  }
+}
+
+ /* Tablet */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+/* Tablet landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  font-size: 55px;
+  color: #30475e;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f05454;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  font-family: 'Spectral', serif;
+  color: #f05454;
+}
+
+.btn {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title */
+
+#title {
+  margin: 2% 4% 0% 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #e8e8e8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #f05454 !important;
+}
+
+.title-img {
+  width: 70%;
+  height: 500px;
+}
+
+.building-img {
+  text-align: center;
+}
+
+.title-form {
+  margin-top: 5%;
+}
+/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+/* why-us */
+
+.why-us-container{
+  margin-left: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.why-us-img {
+  margin-left: 4%;
+  width: 70%;
+  height: 500px;
+}
+
+.why-us-description {
+  margin-bottom: 15%;
+  padding-left: 3%;
+  padding-right: 20%;
+  padding-top: 3%;
+}
+
+.why-us-section1 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.why-us-section2 {
+  margin-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.why-us-section3 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.why-us-section4 {
+  margin-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* floorplan */
+
+#floorplan {
+  padding: 2% 10%;
+}
+
+.floorplan_imgs {
+  width: 60%;
+  height: 30.5rem;
+  padding-top: 50px;
+}
+
+.flpn_calculator {
+  padding-top: 50px;
+}
+
+/* footer */
+
+footer {
+  background-color: #e8e8e8;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.fab {
+  font-size: 30px;
+  padding: 3% 0.5%;
+}
+
+a {
+  color: black;
+}
+
+/* About */
+
+#about-description {
+  padding: 7% 10%;
+}
+
+.about-img {
+  width: 70%;
+  height: 500px;
+  margin-left: 15%;
+}
+
+.about-title {
+  padding-right: 10%;
+  margin-top: 5%;
+}
+
+.about-title-img {
+  padding-left: 5%;
+}
+
+/* Gallery*/
+#about-gallery {
+  padding: 7% 10%;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.thumbnail {
+  padding-left: 17%;
+}
+
+/* Team */
+
+#team {
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.team-img {
+  width: 100%;
+  height: 270px;
+}
+
+.card-description {
+  text-align: center;
+  margin-left: 10%;
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Luxury living</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/cee5a5554c.js" crossorigin="anonymous"></script>
+
+  <!-- Google font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Spectral:wght@600&family=Ubuntu:wght@700&display=swap');
+  </style>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <section id="title">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">delux</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title section -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 title-form">
+        <h1>Fine living at its core.</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <form id="email_submit" class="inquiryForm" action="index.html" method="post">
+          <div>
+            <label for="realestate@info.com">Email address</label>
+            <input type="email" class="form-control" aria-describedby="emailHelp">
+            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-outline-danger btn-lg" onclick="emailSubmit()">Submit</button>
+        </form>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 building-img">
+        <img class="title-img" src="image/building.jpg" alt="title-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section id="Features">
+    <div class="why-us-heading" style="text-align: center; padding: 4% 5%;">
+      <h1>Why us</h1>
+      <hr style="border: 3px solid #f05454; width: 50px;">
+    </div>
+    <div class="row why-us-container">
+      <div class="col-lg-6 col-md-6 col-sm-12 why-us-section1">
+        <div>
+          <img class="why-us-img " src="image/living_room.jpg" alt="why-us-img">
+        </div>
+        <div class="why-us-description">
+          <h2>Cozy living</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 why-us-section2">
+        <div>
+          <img class="why-us-img" src="image/kitchen.jpg" alt="why-us-img">
+        </div>
+        <div class="why-us-description">
+          <h2>Safe cooking</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row why-us-container">
+      <div class="col-lg-6 col-md-6 col-sm-12 why-us-section3">
+        <div>
+          <img class="why-us-img " src="image/bedroom.jpg" alt="why-us-img">
+        </div>
+        <div class="why-us-description">
+          <h2>High-end privacy</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 why-us-section4">
+        <div>
+          <img class="why-us-img" src="image/bathroom.jpg" alt="why-us-img">
+        </div>
+        <div class="why-us-description">
+          <h2>Priority cleaning</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Floorplan -->
+  <section id="floorplan">
+
+    <div class="why-us-heading" style="text-align: center; padding: 4% 5%;">
+      <h1>Floorplan</h1>
+      <hr style="border: 3px solid #f05454; width: 50px;">
+    </div>
+
+    <div class="floorplan_items">
+      <ul class="nav nav-tabs" id="floorplan_tabs" role="tablist">
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="studio-tab" data-toggle="tab" href="#studio" role="tab" aria-controls="studio" aria-selected="true">Studio</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="1bd1br-tab" data-toggle="tab" href="#1bd1br" role="tab" aria-controls="1bd1br" aria-selected="false">1BD1BR</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="2br2br-tab" data-toggle="tab" href="#2bd2br" role="tab" aria-controls="2bd2br" aria-selected="false">2BD2BR</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="floorplans">
+        <!-- STUDIO Tab -->
+        <div class="tab-pane fade show active" id="studio" role="tabpanel" aria-labelledby="studio-tab">
+          <div class="row">
+            <div class="col-6 flpn_image">
+              <img class="floorplan_imgs" src="image/floorplan1.jpg" alt="floorplan1">
+            </div>
+            <div class="col-6 flpn_calculator">
+              <h2 style="text-align: center;">Mortgage calculator</h2>
+              <br>
+
+              <!-- Studio Form -->
+              <form id="mortgage_form">
+                <div class="form-group">
+                  <label for="condo_price">Condo price</label>
+                  <select class="form-control" id="condo_price">
+                    <option>150000</option>
+                    <option>250000</option>
+                    <option>300000</option>
+                    <option>400000</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="condo_deposit">Down payment</label>
+                  <textarea class="form-control" id="down_payment" rows="1"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="loan-term">Condo loan term</label>
+                  <select class="form-control" id="condo_loan_term">
+                    <option id="loan_term_30" class="30yrs">30 years fixed</option>
+                    <option id="loan_term_15" class="15yrs">15 years</option>
+                    <option id="loan_term_10" class="10yrs">10 years</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="condo_interest">Interest rate</label>
+                  <textarea class="form-control" id="interest_rate" rows="1"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-danger" onclick="mortgageSubmit">Calculate</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1BD1BR Tab -->
+        <div class="tab-pane fade" id="1bd1br" role="tabpanel" aria-labelledby="1bd1br-tab">
+          <div class="row">
+            <div class="col-6 flpn_image">
+              <img class="floorplan_imgs" src="image/floorplan2.jpg" alt="floorplan2">
+            </div>
+            <div class="col-6 flpn_calculator">
+              <h2 style="text-align: center;">Mortgage calculator</h2>
+              <br>
+
+              <!-- 1BD1BR Form -->
+              <form id="mortgage_form">
+                <div class="form-group">
+                  <label for="condo_price">Condo price</label>
+                  <select class="form-control" id="condo_price">
+                    <option>150000</option>
+                    <option>250000</option>
+                    <option>300000</option>
+                    <option>400000</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="condo_deposit">Down payment</label>
+                  <textarea class="form-control" id="down_payment" rows="1"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="loan-term">Condo loan term</label>
+                  <select class="form-control" id="condo_loan_term">
+                    <option id="loan_term_30" class="30yrs">30 years fixed</option>
+                    <option id="loan_term_15" class="15yrs">15 years</option>
+                    <option id="loan_term_10" class="10yrs">10 years</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="condo_interest">Interest rate</label>
+                  <textarea type="number" class="form-control" id="interest_rate" rows="1"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-danger" onclick="mortgageSubmit">Calculate</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2BD2BR Tab -->
+        <div class="tab-pane fade" id="2bd2br" role="tabpanel" aria-labelledby="2bd2br-tab">
+          <div class="row">
+            <div class="col-6 flpn_image">
+              <img class="floorplan_imgs" src="image/floorplan3.jpg" alt="floorplan3">
+            </div>
+            <div class="col-6 flpn_calculator">
+              <h2 style="text-align: center;">Mortgage calculator</h2>
+              <br>
+
+              <!-- 2BD2BR Form -->
+              <form id="mortgage_form">
+                <div class="form-group">
+                  <label for="condo_price">Condo price</label>
+                  <select class="form-control" id="condo_price">
+                    <option>150000</option>
+                    <option>250000</option>
+                    <option>300000</option>
+                    <option>400000</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="condo_deposit">Down payment</label>
+                  <textarea class="form-control" id="down_payment" rows="1"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="loan-term">Condo loan term</label>
+                  <select class="form-control" id="condo_loan_term">
+                    <option id="loan_term_30" class="30yrs">30 years fixed</option>
+                    <option id="loan_term_15" class="15yrs">15 years</option>
+                    <option id="loan_term_10" class="10yrs">10 years</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="condo_interest">Interest rate</label>
+                  <textarea class="form-control" id="interest_rate" rows="1"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-danger mortgage_submit" onclick="mortgageSubmit">Calculate</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <h5>Quick links</h5>
+      <ul class="list-unstyled quick-links">
+        <li><a href="#"><i class="fa"></i>Floorplans</a></li>
+        <li><a href="#"><i class="fa"></i>About</a></li>
+        <li><a href="#"><i class="fa"></i>FAQ</a></li>
+        <li><a href="#"><i class="fa"></i>Get Started</a></li>
+      </ul>
+    </div>
+
+    <div class="social-media-icons">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook"></i>
+    </div>
+    <br>
+    <p style="font-size: 12px;">Salimata Nesse, DELUX 2021 &copy</p>
+  </footer>
+  <script src="javascript/home.js"></script>
+</body>
+
+</html>
